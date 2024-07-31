@@ -51,7 +51,7 @@ export function Home() {
               [index]: [...(outputs[index] as number[]), startX],
             };
           });
-        }
+        },
       );
       simulate(ballManager);
 

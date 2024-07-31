@@ -46,7 +46,7 @@ export function Simulation() {
               [index]: [...(outputs[index] as number[]), startX],
             };
           });
-        }
+        },
       );
       simulate(ballManager);
 

@@ -50,7 +50,7 @@ export const Simulate = () => {
               [index]: [...(outputs[index] as number[]), startX],
             };
           });
-        }
+        },
       );
       simulate(ballManager);
 

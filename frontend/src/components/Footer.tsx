@@ -24,13 +24,16 @@ export const Footer = () => {
           <div className="space-y-2">
             <h1 className="text-center text-lg">Follow On</h1>
             <div className="flex items-center gap-3">
-              <a href="https://github.com/hkirat" target="_blank">
+              <a href="https://github.com/tusharxoxoxo" target="_blank">
                 <FaGithub size={30} />
               </a>
-              <a href="https://www.youtube.com/@harkirat1" target="_blank">
+              <a
+                href="https://youtu.be/dQw4w9WgXcQ?si=Y6cMZ0ue1OsBwxOI"
+                target="_blank"
+              >
                 <FaYoutube size={30} />
               </a>
-              <a href="https://twitter.com/kirat_tw" target="_blank">
+              <a href="https://twitter.com/0tusharD" target="_blank">
                 <FaTwitter size={30} />
               </a>
             </div>

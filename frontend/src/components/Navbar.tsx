@@ -19,7 +19,7 @@ export const Navbar = () => {
             alt="plinkoo Logo"
           /> */}
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-            Plinkoo.100x
+            Plinkoo
           </span>
         </Link>
         <Button
@@ -39,6 +39,12 @@ export const Navbar = () => {
           id="navbar-default"
         >
           <Button
+            className="bg-transparent7 mx-4 hover:bg-black w-[50%]"
+            onClick={() => navigate("/wallet")}
+          >
+            Okto Wallet
+          </Button>
+          <Button
             className="bg-transparent mx-4 hover:bg-black w-[50%]"
             onClick={() => navigate("/simulation")}
           >
@@ -52,6 +58,12 @@ export const Navbar = () => {
           </Button>
         </div>
         <div className="hidden w-full md:block md:w-auto" id="navbar-default">
+          <Button
+            className="bg-transparent mx-4 hover:bg-black"
+            onClick={() => navigate("/wallet")}
+          >
+            Okto Wallet
+          </Button>
           <Button
             className="bg-transparent mx-4 hover:bg-black"
             onClick={() => navigate("/simulation")}
