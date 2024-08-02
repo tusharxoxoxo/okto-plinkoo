@@ -15,5 +15,7 @@ go inside frontend folder
 `bun run dev`
 
 for running the backend 
-    `tsc` 
-    `node dist/index.js`
+1.     `tsc` 
+
+
+2.     `node dist/index.js`
