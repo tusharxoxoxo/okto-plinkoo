@@ -1,6 +1,6 @@
 
 
-https://github.com/user-attachments/assets/482098a8-f5a6-449b-b37d-2ad26b2b6b68
+
 
 # Betting Site
 
@@ -16,6 +16,8 @@ Instruction on how to run is on your machine
 
 1. need to have tsc installed
 2. Any javascript package manager(npm, pnpm, bun)
+
+https://github.com/user-attachments/assets/482098a8-f5a6-449b-b37d-2ad26b2b6b68
 
 go inside frontend folder
 
