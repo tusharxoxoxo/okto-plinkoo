@@ -11,11 +11,18 @@ Instruction on how to run is on your machine
 2. Any javascript package manager(npm, pnpm, bun)
 
 go inside frontend folder
--> `bun install` 
--> `bun run dev`
+```
+-> bun install 
+```
+```
+-> bun run dev
+```
 
 for running the backend 
--> `tsc` 
+```
+-> tsc 
+```
 
-
--> `node dist/index.js`
+```
+-> node dist/index.js
+```
