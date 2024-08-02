@@ -1,10 +1,9 @@
 import express from "express";
 import { outcomes } from "./outcomes";
 import cors from "cors";
-import { OktoProvider, BuildType } from 'okto-sdk-react';
+import { OktoProvider, BuildType } from "okto-sdk-react";
 
 const OKTO_CLIENT_API_KEY = "";
-
 
 const app = express();
 app.use(cors());
