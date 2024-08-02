@@ -12,17 +12,17 @@ Instruction on how to run is on your machine
 
 go inside frontend folder
 ```
--> bun install 
+1. bun install 
 ```
 ```
--> bun run dev
+2. bun run dev
 ```
 
 for running the backend 
 ```
--> tsc 
+1. tsc 
 ```
 
 ```
--> node dist/index.js
+2. node dist/index.js
 ```
