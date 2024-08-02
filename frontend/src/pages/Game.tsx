@@ -7,8 +7,8 @@ import { baseURL } from "../utils";
 export function Game() {
   const [ballManager, setBallManager] = useState<BallManager>();
   const canvasRef = useRef<any>();
-  const [betAmount, setBetAmount] = useState('');
-  const [risk, setRisk] = useState('medium');
+  const [betAmount, setBetAmount] = useState("");
+  const [risk, setRisk] = useState("medium");
 
   useEffect(() => {
     if (canvasRef.current) {
@@ -32,25 +32,34 @@ export function Game() {
   return (
     <div className="game-container">
       <div className="game-card">
-        <canvas ref={canvasRef} width="800" height="800" className="game-canvas"></canvas>
+        <canvas
+          ref={canvasRef}
+          width="800"
+          height="800"
+          className="game-canvas"
+        ></canvas>
         <div className="controls">
           <div className="control-item">
-            <label htmlFor="betAmount" className="control-label">Bet Amount</label>
-            <input 
-              id="betAmount" 
-              type="text" 
-              className="control-input" 
-              placeholder="0.00000000" 
-              value={betAmount} 
-              onChange={(e) => setBetAmount(e.target.value)} 
+            <label htmlFor="betAmount" className="control-label">
+              Bet Amount
+            </label>
+            <input
+              id="betAmount"
+              type="text"
+              className="control-input"
+              placeholder="0.00000000"
+              value={betAmount}
+              onChange={(e) => setBetAmount(e.target.value)}
             />
           </div>
           <div className="control-item">
-            <label htmlFor="risk" className="control-label">Risk</label>
-            <select 
-              id="risk" 
-              className="control-input" 
-              value={risk} 
+            <label htmlFor="risk" className="control-label">
+              Risk
+            </label>
+            <select
+              id="risk"
+              className="control-input"
+              value={risk}
               onChange={(e) => setRisk(e.target.value)}
             >
               <option value="low">Low</option>
@@ -58,10 +67,7 @@ export function Game() {
               <option value="high">High</option>
             </select>
           </div>
-          <Button
-            className="control-button"
-            onClick={handleBet}
-          >
+          <Button className="control-button" onClick={handleBet}>
             Bet
           </Button>
         </div>
