@@ -3,12 +3,14 @@ import { outcomes } from "./outcomes";
 import cors from "cors";
 import { OktoProvider, BuildType } from "okto-sdk-react";
 
-const OKTO_CLIENT_API_KEY = "";
+const OKTO_CLIENT_API_KEY = "CLIENT_API_KEY";
 
 const app = express();
 app.use(cors());
 
 const TOTAL_DROPS = 16;
+
+
 
 const MULTIPLIERS: { [key: number]: number } = {
   0: 16,
