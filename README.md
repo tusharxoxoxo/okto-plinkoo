@@ -3,3 +3,9 @@ Plinko lets players drop a ball from the top of our triangular pin pyramid to fi
 I have added one sample video on how exactly the game works in real life
 
 https://github.com/user-attachments/assets/b632009c-7c55-42a4-8906-4d85d4d9a085
+
+
+Instruction on how to run is on your machine
+
+1. need to have tsc installed
+2. Any javascript package manager(npm, pnpm, bun)
