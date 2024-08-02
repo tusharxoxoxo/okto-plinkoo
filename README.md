@@ -9,3 +9,11 @@ Instruction on how to run is on your machine
 
 1. need to have tsc installed
 2. Any javascript package manager(npm, pnpm, bun)
+
+go inside frontend folder
+`bun install` 
+`bun run dev`
+
+for running the backend 
+    `tsc` 
+    `node dist/index.js`
