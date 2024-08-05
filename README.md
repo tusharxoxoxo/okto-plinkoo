@@ -1,7 +1,3 @@
-
-
-
-
 # Betting Site
 
 ## Casino Game
